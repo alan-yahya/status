@@ -8,9 +8,9 @@ const RETIRED_COMPONENT_LABELS = new Set([
   "realtime-services",
 ]);
 
-// Status data is read straight from the public lexifina/status repository:
+// Status data is read straight from the public alan-yahya/status repository:
 // Upptime's summary from raw.githubusercontent.com, incidents from the GitHub API.
-const REPOSITORY = "lexifina/status";
+const REPOSITORY = "alan-yahya/status";
 const SUMMARY_URL = `https://raw.githubusercontent.com/${REPOSITORY}/HEAD/history/summary.json`;
 const ISSUES_URL = `https://api.github.com/repos/${REPOSITORY}/issues`;
 

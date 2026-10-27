@@ -1,4 +1,4 @@
-const REPOSITORY = "lexifina/status";
+const REPOSITORY = "alan-yahya/status";
 
 function formatDate(value) {
   return new Intl.DateTimeFormat("en-GB", {
