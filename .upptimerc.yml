@@ -155,7 +155,7 @@ i18n:
   uptime: Uptime
 
 workflowSchedule:
-  uptime: "3-58/5 * * * *"
+  uptime: "*/5 * * * *"
   responseTime: "0 23 * * *"
   graphs: "0 0 * * *"
   summary: "0 0 * * *"
