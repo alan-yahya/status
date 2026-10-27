@@ -1,0 +1,161 @@
+owner: lexifina
+repo: status
+user-agent: lexifina-status
+
+# Every probe is a public URL; no repository secrets are passed to checks.
+# No notifications are configured: incidents appear on the status page and as issues in this repository.
+secrets: []
+skipDeleteIssues: true
+
+sites:
+  - name: Website
+    slug: website
+    url: https://lexifina.com/
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 5000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: "Lexifina"
+
+  - name: Web application
+    slug: web-application
+    url: https://app.lexifina.com/
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 5000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: "Lexifina"
+
+  - name: Login and accounts
+    slug: login-accounts
+    url: https://app.lexifina.com/api/public-status/components/login-accounts
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: Documents
+    slug: documents
+    url: https://app.lexifina.com/api/public-status/components/documents
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: File uploads
+    slug: file-uploads
+    url: https://app.lexifina.com/api/public-status/components/file-uploads
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: Document processing
+    slug: document-processing
+    url: https://app.lexifina.com/api/public-status/components/document-processing
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: AI drafting and review
+    slug: ai-drafting-review
+    url: https://app.lexifina.com/api/public-status/components/ai-drafting-review
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 5000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: Search and library
+    slug: search-library
+    url: https://app.lexifina.com/api/public-status/components/search-library
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: Automations
+    slug: automations
+    url: https://app.lexifina.com/api/public-status/components/automations
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: Matters and client intake
+    slug: matters-client-intake
+    url: https://app.lexifina.com/api/public-status/components/matters-client-intake
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: Approvals
+    slug: approvals
+    url: https://app.lexifina.com/api/public-status/components/approvals
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: E-signatures
+    slug: e-signatures
+    url: https://app.lexifina.com/api/public-status/components/e-signatures
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: Live updates
+    slug: live-updates
+    url: https://app.lexifina.com/api/public-status/components/live-updates
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+  - name: Word add-in
+    slug: word-add-in
+    url: https://app.lexifina.com/word-addin/taskpane.html
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 5000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: "Lexifina"
+
+  - name: Outlook integration
+    slug: outlook-integration
+    url: https://app.lexifina.com/api/public-status/components/outlook-integration
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+
+status-website:
+  # The page is the static site in site/, deployed to GitHub Pages by .github/workflows/pages.yml.
+  publish: false
+  cname: status.lexifina.com
+  name: Lexifina Status
+  logoUrl: https://status.lexifina.com/lexifina-icon.png
+  favicon: https://status.lexifina.com/lexifina-icon.png
+
+i18n:
+  footer: "Lexifina service status"
+  allSystemsOperational: All systems operational
+  degradedSystem: Some systems are experiencing degraded performance
+  completeOutage: Some systems are currently unavailable
+  activeIncidents: Active incidents
+  pastIncidents: Past incidents
+  liveStatus: Live status
+  overallUptime: Overall uptime
+  averageResponseTime: Average response time
+  up: Operational
+  down: Unavailable
+  degraded: Degraded
+  status: Status
+  history: History
+  responseTime: Response time
+  uptime: Uptime
+
+workflowSchedule:
+  uptime: "3-58/5 * * * *"
+  responseTime: "0 23 * * *"
+  graphs: "0 0 * * *"
+  summary: "0 0 * * *"
