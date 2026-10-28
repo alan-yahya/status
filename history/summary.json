@@ -4,18 +4,20 @@
     "url": "https://lexifina.com/",
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "website",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 929,
-    "timeDay": 929,
-    "timeWeek": 929,
-    "timeMonth": 929,
-    "timeYear": 929,
-    "dailyMinutesDown": {}
+    "time": 8219,
+    "timeDay": 8219,
+    "timeWeek": 8219,
+    "timeMonth": 8219,
+    "timeYear": 8219,
+    "dailyMinutesDown": {
+      "2026-10-28": 1
+    }
   },
   {
     "name": "Web application",
