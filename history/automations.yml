@@ -1,7 +1,7 @@
 url: https://app.lexifina.com/api/public-status/components/automations
-status: up
-code: 200
-responseTime: 275
-lastUpdated: 2026-10-29T02:09:08.120Z
+status: down
+code: 522
+responseTime: 19514
+lastUpdated: 2026-10-29T15:34:00.542Z
 startTime: 2026-09-04T16:37:58.402Z
 generator: Upptime <https://github.com/upptime/upptime>
