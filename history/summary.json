@@ -150,19 +150,19 @@
     "url": "https://app.lexifina.com/api/public-status/components/automations",
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "automations",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.76%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 4382,
-    "timeDay": 9895,
-    "timeWeek": 4382,
-    "timeMonth": 4382,
-    "timeYear": 4382,
+    "time": 3698,
+    "timeDay": 6689,
+    "timeWeek": 3698,
+    "timeMonth": 3698,
+    "timeYear": 3698,
     "dailyMinutesDown": {
-      "2026-10-29": 1
+      "2026-10-29": 3
     }
   },
   {
