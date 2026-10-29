@@ -114,19 +114,19 @@
     "url": "https://app.lexifina.com/api/public-status/components/ai-drafting-review",
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "ai-drafting-review",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 761,
-    "timeDay": 811,
-    "timeWeek": 761,
-    "timeMonth": 761,
-    "timeYear": 761,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.67%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
+    "time": 670,
+    "timeDay": 612,
+    "timeWeek": 670,
+    "timeMonth": 670,
+    "timeYear": 670,
     "dailyMinutesDown": {
-      "2026-10-29": 0
+      "2026-10-29": 5
     }
   },
   {
