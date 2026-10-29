@@ -1,7 +1,7 @@
 url: https://app.lexifina.com/api/public-status/components/ai-drafting-review
-status: up
-code: 200
-responseTime: 720
-lastUpdated: 2026-10-29T02:09:07.038Z
+status: down
+code: 503
+responseTime: 902
+lastUpdated: 2026-10-29T16:01:01.412Z
 startTime: 2026-09-04T16:37:57.181Z
 generator: Upptime <https://github.com/upptime/upptime>
