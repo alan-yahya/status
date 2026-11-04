@@ -5,19 +5,20 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "website",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "99.09%",
-    "uptimeWeek": "99.84%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "99.98%",
+    "uptime": "98.63%",
+    "uptimeDay": "17.20%",
+    "uptimeWeek": "88.14%",
+    "uptimeMonth": "97.27%",
+    "uptimeYear": "98.63%",
     "time": 3037,
     "timeDay": 970,
-    "timeWeek": 3037,
+    "timeWeek": 3353,
     "timeMonth": 3037,
     "timeYear": 3037,
     "dailyMinutesDown": {
       "2026-10-28": 3,
-      "2026-11-03": 13
+      "2026-11-04": 21,
+      "2026-11-03": 1171
     }
   },
   {
@@ -26,18 +27,19 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "web-application",
     "status": "up",
-    "uptime": "99.97%",
-    "uptimeDay": "98.04%",
-    "uptimeWeek": "99.72%",
-    "uptimeMonth": "99.94%",
-    "uptimeYear": "99.97%",
+    "uptime": "98.62%",
+    "uptimeDay": "16.15%",
+    "uptimeWeek": "88.02%",
+    "uptimeMonth": "97.24%",
+    "uptimeYear": "98.62%",
     "time": 700,
     "timeDay": 677,
-    "timeWeek": 700,
+    "timeWeek": 689,
     "timeMonth": 700,
     "timeYear": 700,
     "dailyMinutesDown": {
-      "2026-11-03": 28
+      "2026-11-04": 21,
+      "2026-11-03": 1186
     }
   },
   {
@@ -53,7 +55,7 @@
     "uptimeYear": "100.00%",
     "time": 534,
     "timeDay": 685,
-    "timeWeek": 534,
+    "timeWeek": 492,
     "timeMonth": 534,
     "timeYear": 534,
     "dailyMinutesDown": {}
@@ -64,18 +66,19 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "documents",
     "status": "up",
-    "uptime": "99.95%",
-    "uptimeDay": "97.29%",
-    "uptimeWeek": "99.61%",
-    "uptimeMonth": "99.91%",
-    "uptimeYear": "99.95%",
+    "uptime": "98.60%",
+    "uptimeDay": "15.39%",
+    "uptimeWeek": "87.91%",
+    "uptimeMonth": "97.22%",
+    "uptimeYear": "98.60%",
     "time": 423,
     "timeDay": 670,
-    "timeWeek": 423,
+    "timeWeek": 354,
     "timeMonth": 423,
     "timeYear": 423,
     "dailyMinutesDown": {
-      "2026-11-03": 39
+      "2026-11-04": 21,
+      "2026-11-03": 1197
     }
   },
   {
@@ -84,18 +87,19 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "file-uploads",
     "status": "up",
-    "uptime": "99.94%",
-    "uptimeDay": "96.22%",
-    "uptimeWeek": "99.46%",
-    "uptimeMonth": "99.88%",
-    "uptimeYear": "99.94%",
+    "uptime": "98.58%",
+    "uptimeDay": "14.33%",
+    "uptimeWeek": "87.76%",
+    "uptimeMonth": "97.18%",
+    "uptimeYear": "98.58%",
     "time": 466,
     "timeDay": 658,
-    "timeWeek": 466,
+    "timeWeek": 509,
     "timeMonth": 466,
     "timeYear": 466,
     "dailyMinutesDown": {
-      "2026-11-03": 54
+      "2026-11-04": 21,
+      "2026-11-03": 1212
     }
   },
   {
@@ -104,18 +108,19 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "document-processing",
     "status": "up",
-    "uptime": "99.96%",
-    "uptimeDay": "97.50%",
-    "uptimeWeek": "99.64%",
-    "uptimeMonth": "99.92%",
-    "uptimeYear": "99.96%",
+    "uptime": "98.60%",
+    "uptimeDay": "15.61%",
+    "uptimeWeek": "87.94%",
+    "uptimeMonth": "97.23%",
+    "uptimeYear": "98.60%",
     "time": 461,
     "timeDay": 213,
-    "timeWeek": 461,
+    "timeWeek": 459,
     "timeMonth": 461,
     "timeYear": 461,
     "dailyMinutesDown": {
-      "2026-11-03": 36
+      "2026-11-04": 21,
+      "2026-11-03": 1194
     }
   },
   {
@@ -131,7 +136,7 @@
     "uptimeYear": "99.99%",
     "time": 529,
     "timeDay": 624,
-    "timeWeek": 529,
+    "timeWeek": 487,
     "timeMonth": 529,
     "timeYear": 529,
     "dailyMinutesDown": {
@@ -151,7 +156,7 @@
     "uptimeYear": "100.00%",
     "time": 454,
     "timeDay": 693,
-    "timeWeek": 454,
+    "timeWeek": 494,
     "timeMonth": 454,
     "timeYear": 454,
     "dailyMinutesDown": {}
@@ -169,7 +174,7 @@
     "uptimeYear": "100.00%",
     "time": 1779,
     "timeDay": 221,
-    "timeWeek": 1779,
+    "timeWeek": 1948,
     "timeMonth": 1779,
     "timeYear": 1779,
     "dailyMinutesDown": {
@@ -189,7 +194,7 @@
     "uptimeYear": "100.00%",
     "time": 321,
     "timeDay": 216,
-    "timeWeek": 321,
+    "timeWeek": 287,
     "timeMonth": 321,
     "timeYear": 321,
     "dailyMinutesDown": {}
@@ -200,18 +205,19 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "approvals",
     "status": "up",
-    "uptime": "99.97%",
-    "uptimeDay": "98.46%",
-    "uptimeWeek": "99.78%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.97%",
+    "uptime": "98.62%",
+    "uptimeDay": "16.57%",
+    "uptimeWeek": "88.08%",
+    "uptimeMonth": "97.26%",
+    "uptimeYear": "98.62%",
     "time": 350,
     "timeDay": 649,
-    "timeWeek": 350,
+    "timeWeek": 365,
     "timeMonth": 350,
     "timeYear": 350,
     "dailyMinutesDown": {
-      "2026-11-03": 22
+      "2026-11-04": 21,
+      "2026-11-03": 1180
     }
   },
   {
@@ -220,18 +226,19 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "e-signatures",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "98.55%",
-    "uptimeWeek": "99.79%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.98%",
+    "uptime": "98.62%",
+    "uptimeDay": "16.65%",
+    "uptimeWeek": "88.09%",
+    "uptimeMonth": "97.26%",
+    "uptimeYear": "98.62%",
     "time": 332,
     "timeDay": 219,
-    "timeWeek": 332,
+    "timeWeek": 314,
     "timeMonth": 332,
     "timeYear": 332,
     "dailyMinutesDown": {
-      "2026-11-03": 21
+      "2026-11-04": 21,
+      "2026-11-03": 1179
     }
   },
   {
@@ -247,7 +254,7 @@
     "uptimeYear": "100.00%",
     "time": 319,
     "timeDay": 230,
-    "timeWeek": 319,
+    "timeWeek": 291,
     "timeMonth": 319,
     "timeYear": 319,
     "dailyMinutesDown": {}
@@ -265,7 +272,7 @@
     "uptimeYear": "100.00%",
     "time": 246,
     "timeDay": 201,
-    "timeWeek": 246,
+    "timeWeek": 252,
     "timeMonth": 246,
     "timeYear": 246,
     "dailyMinutesDown": {}
@@ -283,7 +290,7 @@
     "uptimeYear": "100.00%",
     "time": 348,
     "timeDay": 208,
-    "timeWeek": 348,
+    "timeWeek": 268,
     "timeMonth": 348,
     "timeYear": 348,
     "dailyMinutesDown": {}
