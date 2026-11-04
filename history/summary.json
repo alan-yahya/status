@@ -5,11 +5,11 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "website",
     "status": "up",
-    "uptime": "97.48%",
+    "uptime": "97.47%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "77.93%",
-    "uptimeMonth": "94.91%",
-    "uptimeYear": "97.48%",
+    "uptimeWeek": "77.89%",
+    "uptimeMonth": "94.90%",
+    "uptimeYear": "97.47%",
     "time": 2907,
     "timeDay": 1097,
     "timeWeek": 999,
@@ -17,7 +17,7 @@
     "timeYear": 2907,
     "dailyMinutesDown": {
       "2026-10-28": 3,
-      "2026-11-04": 1053,
+      "2026-11-04": 1058,
       "2026-11-03": 1171
     }
   },
@@ -29,8 +29,8 @@
     "status": "up",
     "uptime": "97.46%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "77.78%",
-    "uptimeMonth": "94.89%",
+    "uptimeWeek": "77.74%",
+    "uptimeMonth": "94.88%",
     "uptimeYear": "97.46%",
     "time": 705,
     "timeDay": 775,
@@ -38,7 +38,7 @@
     "timeMonth": 705,
     "timeYear": 705,
     "dailyMinutesDown": {
-      "2026-11-04": 1053,
+      "2026-11-04": 1058,
       "2026-11-03": 1186
     }
   },
@@ -65,19 +65,19 @@
     "url": "https://app.lexifina.com/api/public-status/components/documents",
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "documents",
-    "status": "degraded",
+    "status": "up",
     "uptime": "97.44%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "77.67%",
-    "uptimeMonth": "94.86%",
+    "uptimeDay": "0.06%",
+    "uptimeWeek": "77.64%",
+    "uptimeMonth": "94.85%",
     "uptimeYear": "97.44%",
-    "time": 1113,
-    "timeDay": 5248,
-    "timeWeek": 1223,
-    "timeMonth": 1113,
-    "timeYear": 1113,
+    "time": 1294,
+    "timeDay": 4778,
+    "timeWeek": 1441,
+    "timeMonth": 1294,
+    "timeYear": 1294,
     "dailyMinutesDown": {
-      "2026-11-04": 1053,
+      "2026-11-04": 1057,
       "2026-11-03": 1197
     }
   },
@@ -89,8 +89,8 @@
     "status": "up",
     "uptime": "97.42%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "77.52%",
-    "uptimeMonth": "94.83%",
+    "uptimeWeek": "77.48%",
+    "uptimeMonth": "94.82%",
     "uptimeYear": "97.42%",
     "time": 484,
     "timeDay": 698,
@@ -98,7 +98,7 @@
     "timeMonth": 484,
     "timeYear": 484,
     "dailyMinutesDown": {
-      "2026-11-04": 1053,
+      "2026-11-04": 1058,
       "2026-11-03": 1212
     }
   },
@@ -110,8 +110,8 @@
     "status": "up",
     "uptime": "97.44%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "77.70%",
-    "uptimeMonth": "94.87%",
+    "uptimeWeek": "77.66%",
+    "uptimeMonth": "94.86%",
     "uptimeYear": "97.44%",
     "time": 483,
     "timeDay": 758,
@@ -119,7 +119,7 @@
     "timeMonth": 483,
     "timeYear": 483,
     "dailyMinutesDown": {
-      "2026-11-04": 1053,
+      "2026-11-04": 1058,
       "2026-11-03": 1194
     }
   },
@@ -205,18 +205,18 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "approvals",
     "status": "up",
-    "uptime": "97.46%",
+    "uptime": "97.45%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "77.84%",
-    "uptimeMonth": "94.90%",
-    "uptimeYear": "97.46%",
+    "uptimeWeek": "77.80%",
+    "uptimeMonth": "94.89%",
+    "uptimeYear": "97.45%",
     "time": 377,
     "timeDay": 696,
     "timeWeek": 415,
     "timeMonth": 377,
     "timeYear": 377,
     "dailyMinutesDown": {
-      "2026-11-04": 1053,
+      "2026-11-04": 1058,
       "2026-11-03": 1180
     }
   },
@@ -228,8 +228,8 @@
     "status": "up",
     "uptime": "97.46%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "77.85%",
-    "uptimeMonth": "94.90%",
+    "uptimeWeek": "77.81%",
+    "uptimeMonth": "94.89%",
     "uptimeYear": "97.46%",
     "time": 363,
     "timeDay": 730,
@@ -237,7 +237,7 @@
     "timeMonth": 363,
     "timeYear": 363,
     "dailyMinutesDown": {
-      "2026-11-04": 1053,
+      "2026-11-04": 1058,
       "2026-11-03": 1179
     }
   },
