@@ -22,7 +22,10 @@ jobs:
   release:
     name: Check status
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # Probes of an unreachable origin wait out their timeouts and retries; a
+    # 10-minute limit cancelled every run of the 2026-11-03 outage after it had
+    # opened incidents but before it committed the "down" history.
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
@@ -36,3 +39,22 @@ jobs:
         env:
           GH_PAT: ${{ github.token }}
           SECRETS_CONTEXT: '{}'
+      # Upptime closes an incident only on a down-to-up transition it recorded
+      # itself. A run cancelled after opening an incident leaves the history
+      # "up", so no later run sees a transition and the incident stays open
+      # (2026-11-03: six incidents open for four days). After a completed
+      # check, close any open incident whose service's latest result is up.
+      - name: Close incidents whose service is up again
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue list --repo "$GITHUB_REPOSITORY" --state open --label status --limit 100 \
+            --json number,labels --jq '.[] | [.number, ([.labels[].name | select(. != "status")][0] // "")] | @tsv' |
+          while IFS=$'\t' read -r number slug; do
+            [ -n "$slug" ] && [ -f "history/$slug.yml" ] || continue
+            grep -qx 'status: up' "history/$slug.yml" || continue
+            gh issue close "$number" --repo "$GITHUB_REPOSITORY" \
+              --comment "Resolved: the latest check of this service succeeded." \
+              || gh issue close "$number" --repo "$GITHUB_REPOSITORY" || true
+          done
