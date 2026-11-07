@@ -1,7 +1,7 @@
 url: https://app.lexifina.com/api/public-status/components/live-updates
-status: down
-code: 503
-responseTime: 169
-lastUpdated: 2026-11-07T18:26:10.887Z
+status: up
+code: 200
+responseTime: 285
+lastUpdated: 2026-11-07T18:30:51.234Z
 startTime: 2026-09-04T16:38:01.293Z
 generator: Upptime <https://github.com/upptime/upptime>
