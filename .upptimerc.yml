@@ -128,6 +128,14 @@ sites:
     expectedStatusCodes: [200]
     __dangerous__body_down_if_text_missing: '"status":"operational"'
 
+  - name: Law MCP and API
+    slug: law-mcp-api
+    url: https://mcp.lexifina.com/health
+    icon: https://status.lexifina.com/lexifina-icon.png
+    maxResponseTime: 4000
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: '"ready": true'
+
 status-website:
   # The page is the static site in site/, deployed to GitHub Pages by .github/workflows/pages.yml.
   publish: false
