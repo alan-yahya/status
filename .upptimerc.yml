@@ -130,7 +130,7 @@ sites:
 
   - name: Law MCP and API
     slug: law-mcp-api
-    url: https://mcp.lexifina.com/health
+    url: https://global-law.lexifina.com/health
     icon: https://status.lexifina.com/lexifina-icon.png
     maxResponseTime: 4000
     expectedStatusCodes: [200]
