@@ -93,11 +93,11 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "file-uploads",
     "status": "up",
-    "uptime": "94.30%",
+    "uptime": "94.31%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "85.49%",
-    "uptimeYear": "94.30%",
+    "uptimeYear": "94.31%",
     "time": 526,
     "timeDay": 409,
     "timeWeek": 497,
@@ -323,11 +323,11 @@
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "law-mcp-api",
     "status": "down",
-    "uptime": "98.77%",
-    "uptimeDay": "86.31%",
-    "uptimeWeek": "98.00%",
-    "uptimeMonth": "98.77%",
-    "uptimeYear": "98.77%",
+    "uptime": "98.49%",
+    "uptimeDay": "82.92%",
+    "uptimeWeek": "97.51%",
+    "uptimeMonth": "98.49%",
+    "uptimeYear": "98.49%",
     "time": 615,
     "timeDay": 619,
     "timeWeek": 658,
@@ -337,7 +337,7 @@
       "2026-11-10": 5,
       "2026-11-17": 5,
       "2026-11-20": 161,
-      "2026-11-21": 36
+      "2026-11-21": 85
     }
   }
 ]
