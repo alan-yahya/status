@@ -322,22 +322,22 @@
     "url": "https://global-law.lexifina.com/health",
     "icon": "https://status.lexifina.com/lexifina-icon.png",
     "slug": "law-mcp-api",
-    "status": "down",
-    "uptime": "96.34%",
-    "uptimeDay": "56.75%",
-    "uptimeWeek": "93.77%",
-    "uptimeMonth": "96.34%",
-    "uptimeYear": "96.34%",
-    "time": 746,
-    "timeDay": 1297,
-    "timeWeek": 868,
-    "timeMonth": 746,
-    "timeYear": 746,
+    "status": "up",
+    "uptime": "96.32%",
+    "uptimeDay": "56.44%",
+    "uptimeWeek": "93.73%",
+    "uptimeMonth": "96.32%",
+    "uptimeYear": "96.32%",
+    "time": 817,
+    "timeDay": 1539,
+    "timeWeek": 974,
+    "timeMonth": 817,
+    "timeYear": 817,
     "dailyMinutesDown": {
       "2026-11-10": 5,
       "2026-11-17": 5,
       "2026-11-20": 161,
-      "2026-11-21": 462
+      "2026-11-21": 467
     }
   }
 ]
