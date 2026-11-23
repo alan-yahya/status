@@ -1,7 +1,7 @@
 url: https://global-law.lexifina.com/health
-status: up
-code: 200
-responseTime: 538
-lastUpdated: 2026-11-23T10:15:57.671Z
+status: down
+code: 503
+responseTime: 197
+lastUpdated: 2026-11-23T11:20:59.751Z
 startTime: 2026-11-09T10:55:50.776Z
 generator: Upptime <https://github.com/upptime/upptime>
