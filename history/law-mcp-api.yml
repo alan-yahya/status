@@ -1,7 +1,7 @@
 url: https://global-law.lexifina.com/health
-status: degraded
+status: down
 code: 503
-responseTime: 6865
-lastUpdated: 2026-11-25T14:56:05.300Z
+responseTime: 236
+lastUpdated: 2026-11-25T15:01:04.432Z
 startTime: 2026-11-09T10:55:50.776Z
 generator: Upptime <https://github.com/upptime/upptime>
